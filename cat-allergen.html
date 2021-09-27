@@ -1,0 +1,191 @@
+<!Doctype html>
+<html>
+<head>
+<title>Food Elimination</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+}
+div {
+/*     border: 1px solid black; */
+}
+.row {
+    margin: 4px 0;
+}
+.row [class*="col-"] {
+    min-height: 100vh;
+    border-radius: 8px;
+}
+.row [class*="col-"] h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.row [class*="col-"] p {
+    margin: 24px 0;
+    padding: 0 16px;
+}
+.row [class*="col-"]:nth-child(odd) {
+    background-color: rgb(250,250,250);
+}
+.row [class*="col-"]:nth-child(even) {
+    background-color: rgb(240,240,240);
+}
+.row:last-of-type {
+    text-align: center;
+}
+.row:last-of-type input[type="submit"] {
+    width: 40%;
+    padding: 8px;
+}
+[class*="col-"] {
+	width: 100%;
+	float: left;
+/* 	padding: 15px; */
+}
+
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div style="max-width:1000px; margin:10px auto; border:1px solid black;">
+	<form action="  https://energizepaws.com/recommended_cat_foods-php/ " method="post">
+		<div class="row col-12">
+			<div class="col-3">
+				<h3>Protein</h3>
+				<p><input type="checkbox" name="food[]" value="Buffalo Meal">Buffalo Meal</p>
+				<p><input type="checkbox" name="food[]" value="Duck Meal">Duck Meal</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Chicken">Dehydrated Chicken</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Lamb">Dehydrated Lamb</p>
+				<p><input type="checkbox" name="food[]" value="Herring Meal">Herring Meal</p>
+				<p><input type="checkbox" name="food[]" value="Venison Meal">Venison Meal</p>
+				<p><input type="checkbox" name="food[]" value="Goat">Goat</p>
+				<p><input type="checkbox" name="food[]" value="Goat Lung">Goat Lung</p>
+				<p><input type="checkbox" name="food[]" value="Goat Liver">Goat Liver</p>
+				<p><input type="checkbox" name="food[]" value="Duck">Duck</p>
+				<p><input type="checkbox" name="food[]" value="Lamb">Lamb</p>
+				<p><input type="checkbox" name="food[]" value="Lamb Liver">Lamb Liver</p>
+				<p><input type="checkbox" name="food[]" value="Wild Salmon">Wild Salmon</p>
+				<p><input type="checkbox" name="food[]" value="Turkey">Turkey</p>
+			</div>
+			<div class="col-3">
+				<h3>Fats / Oils / Broth</h3>
+				<p><input type="checkbox" name="food[]" value="Chicken Fat">Chicken Fat(preserved with mixed tocopherols)</p>
+				<p><input type="checkbox" name="food[]" value="Duck Fat(preserved with mixed tocopherols)">Duck Fat(preserved with mixed tocopherols)</p>
+				<p><input type="checkbox" name="food[]" value="Lamb Fat (preserved with mixed tocopherols)">Lamb Fat (preserved with mixed tocopherols)</p>
+				<p><input type="checkbox" name="food[]" value="Coconut Oil">Coconut Oil</p>
+				<p><input type="checkbox" name="food[]" value="Anise Oil">Anise Oil</p>
+				<p><input type="checkbox" name="food[]" value="Thyme Oil">Thyme Oil</p>
+				<p><input type="checkbox" name="food[]" value="Wild Salmon Oil">Wild Salmon Oil</p>
+				<p><input type="checkbox" name="food[]" value="Turkey Broth">Turkey Broth</p>
+				<p><input type="checkbox" name="food[]" value="Fish Broth">Fish Broth</p>
+				<p><input type="checkbox" name="food[]" value="Vegetable Broth">Vegetable Broth</p>
+			</div>
+			<div class="col-3">
+				<h3>Vegetables</h3>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Carrots">Dehydrated Carrots</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Purple Sweet Potato">Dehydrated Purple Sweet Potato</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Beet Root">Dehydrated Beet Root</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Pumpkin">Dehydrated Pumpkin</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Green Pepper">Dehydrated Green Pepper</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Garlic">Dehydrated Garlic</p>
+				<p><input type="checkbox" name="food[]" value="Dried Sweet Potato">Dried Sweet Potato</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Broccoli">Dehydrated Broccoli</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Celery">Dehydrated Celery</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Spinach">Dehydrated Spinach</p>
+			</div>
+			<div class="col-3">
+				<h3>Fruits</h3>
+				<p><input type="checkbox" name="food[]" value="Papaya">Papaya</p>
+				<p><input type="checkbox" name="food[]" value="Coconut">Coconut</p>
+				<p><input type="checkbox" name="food[]" value="Dehydrated Apple">Dehydrated Apple</p>
+				<p><input type="checkbox" name="food[]" value="Dried Tomato">Dried Tomato</p>
+				<p><input type="checkbox" name="food[]" value="Rose Hips">Rose Hips</p>
+			</div>
+		</div>
+		<div class="row col-12">
+			<div class="col-3">
+				<h3>Legumes</h3>
+				<p class="list-title">Legumes</p>
+				<p><input type="checkbox" name="food[]" value="Chickpea">Chickpea</p>
+				<p><input type="checkbox" name="food[]" value="Sun-Cured Alfalfa">Sun-Cured Alfalfa</p>
+				<p><input type="checkbox" name="food[]" value="Fenugreek">Fenugreek</p>
+				<p><input type="checkbox" name="food[]" value="Split Peas">Split Peas</p>
+			</div>
+			<div class="col-3">
+				<h3>Laminariales</h3>
+				<p><input type="checkbox" name="food[]" value="Sun-Cured Kelp">Sun-Cured Kelp</p>
+			</div>
+			<div class="col-3">
+				<h3>Millet</h3>
+				<p><input type="checkbox" name="food[]" value="Pearl Millet">Pearl Millet</p>
+			</div>
+			<div class="col-3">
+				<h3>Linaceae</h3>
+				<p><input type="checkbox" name="food[]" value="Whole Ground Flaxseed">Whole Ground Flaxseed</p>
+			</div>
+		</div>
+		<div class="row col-12">
+			<div class="col-3">
+				<h3>Other</h3>
+				<p><input type="checkbox" name="food[]" value="Dried Lactobacillus Acidophilus Fermentation Product">Dried Lactobacillus Acidophilus Fermentation Product</p>
+				<p><input type="checkbox" name="food[]" value="Sodium Chloride">Sodium Chloride</p>
+				<p><input type="checkbox" name="food[]" value="Lecithin">Lecithin</p>
+				<p><input type="checkbox" name="food[]" value="Choline Chloride">Choline Chloride</p>
+				<p><input type="checkbox" name="food[]" value="FOS or Fructooligosaccharide (prebiotic)">FOS or Fructooligosaccharide (prebiotic)</p>
+				<p><input type="checkbox" name="food[]" value="Peppermint">Peppermint</p>
+				<p><input type="checkbox" name="food[]" value="Taurine">Taurine</p>
+				<p><input type="checkbox" name="food[]" value="Zinc Proteinate">Zinc Proteinate</p>
+				<p><input type="checkbox" name="food[]" value="Yucca Schidigera Extract">Yucca Schidigera Extract</p>
+				<p><input type="checkbox" name="food[]" value="Manganese Proteinate">Manganese Proteinate</p>
+				<p><input type="checkbox" name="food[]" value="Beta-Carotene">Beta-Carotene</p>
+				<p><input type="checkbox" name="food[]" value="Vitamin D3 Supplement">Vitamin D3 Supplement</p>
+				<p><input type="checkbox" name="food[]" value="Biotin">Biotin</p>
+				<p><input type="checkbox" name="food[]" value="Selenium">Selenium</p>
+				<p><input type="checkbox" name="food[]" value="Riboflavin">Riboflavin</p>
+				<p><input type="checkbox" name="food[]" value="Thiamine Mononitrate">Thiamine Mononitrate</p>
+				<p><input type="checkbox" name="food[]" value="Pyridoxine Hydrochloride">Pyridoxine Hydrochloride</p>
+				<p><input type="checkbox" name="food[]" value="Vitamin B12 Supplement">Vitamin B12 Supplement</p>
+				<p><input type="checkbox" name="food[]" value="Folic Acid">Folic Acid</p>
+			</div>
+		</div>
+		<div class="row col-12">
+			<p><input type="submit" value="Submit"></p>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
